@@ -3,7 +3,7 @@ package lambda.ex2;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FilterExample2 {
+public class MapExample {
     public static void main(String[] args) {
         List<String> list = List.of("hello", "java", "lambda");
         System.out.println("원본 리스트 : " + list);
