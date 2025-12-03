@@ -19,6 +19,8 @@ public class BankMain {
         t1.join(); // 최종 잔액 확인을 위한, 쓰레드 종료 대기
         t2.join();
 
+        // 동작흐름
+
         log("최종 잔액 : " + account.getBalance());
     }
 }

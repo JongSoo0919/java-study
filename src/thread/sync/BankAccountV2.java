@@ -33,7 +33,7 @@ public class BankAccountV2 implements BankAccount{
     }
 
     @Override
-    public int getBalance() {
+    public synchronized int getBalance() {
         return balance;
     }
 }
